@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+    font-family: 'Quicksand';
+    margin: 0;
+    border: none;
+}
+
+/* Botones */
+#btnA{
+    padding: 15px;
+    text-decoration: none;
+    color: #3f3f3f;
+    border-radius: 10px;
+    background-color: #bdbdbd;
+    transition: 200ms;
+    margin: 10px;
+}
+#btnA:hover{
+    transition: 200ms;
+    background-color: #858585;
+}
+#btn{
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    color: #3f3f3f;
+    border-radius: 10px;
+    background-color: #bdbdbd;
+    transition: 200ms;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#btn:hover{
+    transition: 200ms;
+    background-color: #858585;
+}
+
+/* Index */
+#contIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#formIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+}
+#titulo{
+    margin-bottom: 30px;
+}
+#titulo h1{
+    font-size: 60px;
+}
+
+/* Login Aventador & Aventado */
+#contLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#formLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    height: 50%;
+}
+#formLogin input{
+    font-size: 15px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+/* Registro Aventador & Aventado */
+#contRegistro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#formRegistro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    height: auto;
+}
+#formRegistro input{
+    font-size: 15px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+}
